@@ -31,4 +31,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Deployed in Vercel
 
--   [admin panel link]("https://admin-panel-pearl-ten.vercel.app/")
+-   [admin panel link](https://admin-panel-pearl-ten.vercel.app/)

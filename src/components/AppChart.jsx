@@ -21,6 +21,7 @@ const AppChart = ({ data, selectedFilter }) => {
             let multiFilter = [];
             selectedFilter.map((item) => {
                 multiFilter.push(item.value);
+                return;
             });
             setMultiFilterData(multiFilter);
         } else {

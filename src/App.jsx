@@ -5,6 +5,7 @@ import AppChart from "./components/AppChart";
 import AppTable from "./components/AppTable";
 
 import "./App.css";
+import data from "./constants/data";
 
 function App() {
     const [responseData, setResponseData] = useState("");
@@ -23,6 +24,7 @@ function App() {
             const response = await fetch(url, headers);
             setResponseData(await response.json());
         } catch (error) {
+            setResponseData(data);
             throw new Error("Failed to fetch data!");
         }
     };

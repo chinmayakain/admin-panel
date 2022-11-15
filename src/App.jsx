@@ -15,9 +15,12 @@ function App() {
     }, []);
 
     const fetchData = async () => {
-        const url = `http://fetest.pangeatech.net/data?page`;
+        const url = `http://fetest.pangeatech.net/data`;
+        const headers = {
+            "Content-Security-Policy": "upgrade-insecure-requests",
+        };
         try {
-            const response = await fetch(url);
+            const response = await fetch(url, headers);
             setResponseData(await response.json());
         } catch (error) {
             throw new Error("Failed to fetch data!");

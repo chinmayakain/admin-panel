@@ -1,32 +1,50 @@
-# Getting Started with Create React App
 
-A admin panel application created to display Graph view and Table view for the data received through api endpoint
+# Welcom to Finance Dashboard! 👋
 
-## Available Scripts
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+> This is a Finance Dashboard. A modern, interactive platform built with React JS, Tailwind CSS, Daisy UI, and JavaScript. It presents financial data in a user-friendly way, with a paginated table and a dynamic line graph. The application offers a multi-select filter option, allowing users to customize their data visualization and analysis. Deployed on Vercel
+## Screenshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Run Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Clone the project
 
-### `npm run build`
+```bash
+  git clone https://github.com/chinmayakain/admin-panel.git
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Go to the project directory
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+  cd admin-panel
 
-### Deployed in Vercel
+```
 
--   [admin panel link](https://admin-panel-pearl-ten.vercel.app/)
+Install dependencies
+
+```bash
+  npm install
+```
+Run application
+
+```bash
+  npm run dev
+```
+## Authors
+
+- [@chinmayanaik](https://www.github.com/chinmayakain)
+
+
+## Features or Limitations
+
+- Built with modern technologies: React JS, Tailwind CSS, Daisy UI, and JavaScript
+- User-friendly presentation of financial data with a paginated table and dynamic line graph
+- Multi-select filter option for custom data visualization and analysis
+- Real-time insights
+- Deployed on Vercel for easy access
+

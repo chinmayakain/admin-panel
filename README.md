@@ -7,7 +7,12 @@
 > This is a Finance Dashboard. A modern, interactive platform built with React JS, Tailwind CSS, Daisy UI, and JavaScript. It presents financial data in a user-friendly way, with a paginated table and a dynamic line graph. The application offers a multi-select filter option, allowing users to customize their data visualization and analysis. Deployed on Vercel
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![image](https://user-images.githubusercontent.com/52573685/217627213-e8212bb1-4791-4b73-878b-55ec5a85cdbc.png)
+
+</ br>
+
+![image](https://user-images.githubusercontent.com/52573685/217627380-d9e9f997-6b6f-4118-bf12-780c183c00f2.png)
+
 
 
 ## Run Locally
